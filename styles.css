@@ -1,0 +1,19 @@
+h1{
+    background-color: darkgray;
+}
+#division{
+    color:darkgoldenrod;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow:10px 10px;
+}
+.one{
+    color:brown;
+}
+.black{
+    color: green;
+}
+.sweet{
+    background-color: aqua;
+}
