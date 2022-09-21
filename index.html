@@ -28,9 +28,18 @@
         }
     </style>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- changing font family using fonts.google.com to change font stlye of a text .choose a text style ,scroll to regular then click and copy the link inside the head section then copy thecss rule to your css where u want the effect.  -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
 </head>
 <body>
+  <!-- creating link fot text decoration  -->
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Service</a>
+  <a href="#">Contact us</a>
     <!-- inline css  -->
   <h1 style="background-color: green;">Introduction to CSS</h1>  
   <p style="font-size: 50px; color: green">Different types of CSS</p>
@@ -48,5 +57,43 @@
   <div class="one black sweet">
     <h3>Hello world</h3>
   </div>
+  <div class="one black sweet"></div>
+  <h2 id="green"></h2>
+  <!-- class is used to spacify athe paragraph or img being editted  -->
+  <p class="p-2">The difference between IDs and classes is that the first one is unique, and <br>the second one is not. This means that each element can have only one ID, and each page can have only one element with this ID. <br>When using the same ID on multiple elements, the code won’t pass validation.<br> But as the classes are not unique, the same class can be used on multiple elements, <br>and vice versa, you can use several classes on the same element.</p>
+  <img class="img-1" src="https://images.pexels.com/photos/12270349/pexels-photo-12270349.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+  <img class="img-2" src="https://images.pexels.com/photos/13230383/pexels-photo-13230383.jpeg?auto=compress&cs=tinysrgb&w=600&h=600" alt="">
+  <!-- creating tables in html  -->
+  <hr size="3" noshade="" color="blue">
+  <table>
+    <thead>
+      <tr>
+        <th>corhort-1</th>
+        <th>corhort-2</th>
+      </tr>
+    </thead>
+    <!-- adding row in HTML  -->
+    <tbody>
+      <tr>
+        <td>Web design</td>
+        <td>graphic design</td>
+      </tr>
+      <tr>
+        <td>personal design</td>
+        <td>group design</td>
+      </tr>
+      <tr>
+        <td>lakehub</td>
+        <td>Borderhub</td>
+      </tr>
+      <tr>
+        <td>femidevs</td>
+        <td>sassy divs</td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <h3>centering an element  </h3>
+</div>
 </body>
 </html>

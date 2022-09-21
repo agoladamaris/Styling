@@ -1,5 +1,11 @@
 h1{
     background-color: darkgray;
+    text-indent: -5px;
+    letter-spacing: inherit;
+    font-variant: uppercase;
+    border: 5px dotted red;
+    border-radius: 30px;
+    padding-left:5% ;
 }
 #division{
     color:darkgoldenrod;
@@ -7,6 +13,7 @@ h1{
     text-decoration: underline;
     text-transform: uppercase;
     text-shadow:10px 10px;
+    magin:
 }
 .one{
     color:brown;
@@ -16,4 +23,71 @@ h1{
 }
 .sweet{
     background-color: aqua;
+}
+.p-2 {
+    font-size: 20px;
+    color: #ff003b;
+    word-spacing: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+.img-1{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.img-2{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+   margin-left: 30px;
+}
+/* styling links  */
+a:link {
+text-decoration: none;
+}
+a:visited {
+    color: rgb(38, 71, 5);
+}
+a:hover {
+    background-color: aliceblue;
+    font-size: 20px;
+}
+a:active {
+    text-transform: uppercase;
+}
+/* styling tables  */
+table{
+    width:60%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid red;
+    border-collapse: separate;
+}
+thead{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    height: 50px;
+}
+th{
+    text-align: center;
+    height: 50px;
+}
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(11, 190, 222);
+}
+td{
+    padding: 15px;
+}
+/* centering div  */
+div {
+   width: 30%;
+    margin: 0 auto;
+    background-color: pink;
+    text-align:center;
 }
